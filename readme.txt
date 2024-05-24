@@ -7,3 +7,4 @@ sentence.cpp розробили разом
 функції printDate і compareAndPrint- 
 Репозиторій на Replit створила Катерина
 На GitHub -Вікторія
+Тестування 24.05.2024

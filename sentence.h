@@ -5,6 +5,7 @@ struct Date {
     int month;
     int year;
 };
+
 extern Date date1;
 extern Date date2;
 

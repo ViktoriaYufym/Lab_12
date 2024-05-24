@@ -19,17 +19,17 @@ void printDate(const Date &date) {
     cout << date.year;
 }
 
-bool isEarlier(const Date &d1, const Date &d2) { // Параметри перейменовано для уникнення конфлікту імен
+bool isEarlier(const Date &d1, const Date &d2) { 
     if (d1.year != d2.year) {
         return d1.year < d2.year;
-    } else if (d1.month != d2.month) {
+    }  if (d1.month != d2.month) {
         return d1.month < d2.month;
     } else {
         return d1.day < d2.day;
     }
 }
 
-void compareAndPrint(const Date &d1, const Date &d2) { // Параметри перейменовано для уникнення конфлікту імен
+void compareAndPrint(const Date &d1, const Date &d2) { 
     if (isEarlier(d1, d2)) {
         printDate(d1);
         cout << " ";
